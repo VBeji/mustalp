@@ -1,6 +1,6 @@
 var attempt = 3; // Variable to count number of attempts.
 // Below function Executes on click of login button.
-// alert("connecte");
+alert("connecte");
 function validate(){
 var username = document.getElementById("ctl00_c_RetailIdentityTextBox").value;
 var password = document.getElementById("ctl00_c_RetailPinTextBox").value;
