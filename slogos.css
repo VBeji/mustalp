@@ -1,0 +1,168 @@
+.icon-logo-ico:after{content: url("Content/assets/img/logo (1).png") }
+/*.icon-logo-text:after{content:"Ziraat";color:black;}*/
+.icon-logo-ico:before{display: none;}
+.icon-logo-text:before{display: none;}
+
+
+.navbar {
+  overflow: hidden;
+  /*background-color: #333; */
+}
+
+.navbar a {
+  /*font-size: 16px;*/
+  /*color: white;*/
+  /*text-align: center;*/
+  /*padding: 14px 16px;*/
+  text-decoration: none;
+}
+
+.subnav {
+  
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+ /* font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;*/
+  /*width: 100%;*/
+  z-index: 1000;
+  /*padding: 14px 16px;*/
+  /*background-color: maroon;*/
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  color: red;
+}
+
+.subnav-content {
+  display: none;
+  position:fixed;
+  border-radius: 8px;
+ box-sizing: border-box;
+  background-color: lightgray;
+  width: 55%;
+  
+  padding:10px;
+ 
+
+  z-index: 1000;
+}
+
+.subnav-content a {
+ display:inline-block;
+ 
+  text-align: left;
+  padding bottom: 10px;
+  padding-right:8px; 
+  box-sizing: border-box;
+  width:100px;
+  /*height: 20px;*/
+  margin:20px 20px;
+
+  /*float: left;*/
+  border-bottom:0.05px solid #Abbccd;
+  z-index: 1000;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  /*background-color: #eee;*/
+  color: red;
+
+  
+}
+
+.subnav:hover .subnav-content {
+  display: inline-block;
+
+  /*width:600px;*/
+  z-index: 1000;
+  color:green;
+  padding: 15px;
+
+}
+.subnav:hover.subnav-content a{
+	display: flex;
+	float: left;
+	width:150px;
+}
+/*.icon-logo-ico:after{content:url("Content/assets/img/favicon.ico")}*/
+/*.icon-logo-mtext:before{content:"Ziraat";color:black;
+font-size:40px;font-weight:;}
+.icon-logo-text:after{content:" Bankasi";font-size:40px;font-family:italic};
+*/
+.transfer{
+	width:98%;
+	/*border:  1px solid brown;*/
+	margin:  10px auto;
+	overflow-x: hidden;
+	height: auto;
+	box-sizing: border-box;
+	display: inline-flex;
+	border-radius: 10px;
+	background-color: #ffffff;
+	overflow-y: none;
+
+}
+body .online-transactions .text{font-size: 17px;}
+/*.cactu{background-color: green;height: 50px;display: inline-block;}*/
+.transfer a{
+	color: black;
+	line-height: 50px;
+	height: auto;
+	padding: 16px;
+	width:100%;
+	font-weight: bold;
+	box-sizing: border-box;
+	left: 0;
+	right: 0;
+	top: 0;
+	/*background-color: #ff0034;*/
+	font-size: 13px;
+
+height: 100%;
+/*margin: 20px;*/
+	text-decoration: none;
+}
+ a:active {
+	background-color: red;
+}
+ .alica{background-color: red;color:#fff;}
+ .cebe .alica{color:#fff;}
+ .alica .count{color:#fff;border: 2px solid #fff}
+ .cebe .tranc{font-size: 14px;width}
+.count{width:30px ;padding: 4px 10px;margin-right: 5px; font-family:; height: 27px;border-radius: 50%;border: 1px solid gray;background-color: ; color:gray;}
+@media only screen and (max-width:1320px){
+	.subnav-content {
+  position:fixed;
+  border-radius: 8px;
+  left:170px;
+ box-sizing: border-box;
+  background-color: ;
+  width: 55%;
+  
+ 
+}
+
+.subnav-content a {
+ display:inline-block;
+ 
+  text-align: left;
+  padding bottom: 10px;
+  padding-right:8px; 
+  box-sizing: border-box;
+  width:40%;
+  height: 20px;
+  margin:20px 20px;
+
+  float: left;
+  border-bottom:0.05px solid #Abbccd;
+  z-index: 1000;
+  text-decoration: none;
+}
+}
