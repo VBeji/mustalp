@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Using the XMLHttpRequest Object</h2>
+
+<div id="demo">
+	<formm method="POST" action="magisms" >
+		<input type="submit" name="submit">
+	</form>
+<button type="button" onclick="loadXMLDoc()">Change Content</button>
+</div>
+
+
+
+<script>
+function loadXMLDoc() {
+var data = {
+            "to":"2348118625262",
+            "from":"talert",
+            "sms":"Hi there, testing Termii",
+            "type":"plain",
+            "api_key":"TTKylXKOb5dcU2Pz8HvXXP3kVstx6iZHvMnJwzKWw5b9LKrKKVoFDkRBwQ0Q2i",
+            "channel":"generic"
+            };
+
+var data = JSON.stringify(data);
+
+var xhr = new XMLHttpRequest();
+xhr.withCredentials = true;
+
+xhr.addEventListener("readystatechange", function() {
+  if(this.readyState === 4) {
+    console.log(this.responseText);
+  }
+});
+
+xhr.open("POST", "https://termii.com/api/sms/send");
+xhr.setRequestHeader("Content-Type", "application/package.json");
+xhr.setRequestHeader("Content-Type", "application/json");
+xhr.send(data);
+
+	
+	}
+</script>
+
+</body>
+</html>
